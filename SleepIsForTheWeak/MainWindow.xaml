@@ -1,0 +1,58 @@
+﻿<Window x:Class="BatchRename.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BatchRename"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Canvas>
+        <Button Name="batchExecuteButton" Content="Start batch rename"
+                Click="BatchExecuteButton_Click" Width="119" Height="25" Canvas.Left="10" Canvas.Top="17"></Button>
+        <TextBlock Text="Select action:" Canvas.Left="10" Canvas.Top="57"></TextBlock>
+        <ComboBox Name="actionsPrototypeComboBox"                 
+                  Width="89" Height="25" Canvas.Left="93" Canvas.Top="53">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Name="addAction" 
+                Click="AddAction_Click"
+                Content="+" Width="30" Height="25" Canvas.Left="200" Canvas.Top="53"/>
+        <ListBox Name="actionsListBox" 
+                 Width="220" Height="181" Canvas.Left="10" Canvas.Top="83">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Edit" Click="MenuItem_Click"></MenuItem>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="{Binding Name}"/>
+                        <TextBlock Text=": "/>
+                        <TextBlock Text="{Binding Args.Details}"/>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TabControl Canvas.Left="269" Canvas.Top="26" Height="238" Width="275">
+            <TabItem Header="Files">
+                <Canvas>
+                    <Button Name="loadFiles" Content="Choose files..."
+                            Click="LoadFiles_Click"
+                            Width="90" Height="25"/>
+                    <ListView Name="filesListView" Height="141" Width="260" Canvas.Top="31">
+                    
+                    </ListView>
+                </Canvas>
+            </TabItem>
+            <TabItem Header="Folders">
+
+            </TabItem>
+        </TabControl>
+    </Canvas>
+</Window>

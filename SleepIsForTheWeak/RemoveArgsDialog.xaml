@@ -1,0 +1,21 @@
+﻿<Window x:Class="BatchRename.RemoveArgsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BatchRename"
+        mc:Ignorable="d"
+        Title="Edit arguments" Height="450" Width="800">
+    <Canvas>
+        <TextBlock Text="Remove action arguments" FontWeight="Bold" FontSize="28" Canvas.Left="57" Canvas.Top="10"/>
+        <TextBlock Text="Enter start index" Canvas.Left="57" Canvas.Top="77"/>
+        <TextBox Name="startIndexTextbox" Width="340" Height="30" Canvas.Left="57" Canvas.Top="98"/>
+
+        <TextBlock Text="Enter number of characters to remove" Canvas.Left="57" Canvas.Top="161"/>
+        <TextBox Name="countTextbox" Width="340" Height="30" Canvas.Left="57" Canvas.Top="182"/>
+
+        <Button Name="saveButton" IsDefault="True" Content="Save" Width="60" Height="25" Canvas.Left="114" Canvas.Top="257"/>
+        <Button Name="cancelButton" IsCancel="True" Content="Cancel" Width="60" Height="25" Canvas.Left="263" Canvas.Top="257"/>
+
+    </Canvas>
+</Window>
