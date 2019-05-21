@@ -1,0 +1,17 @@
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\MainWindow.g.cs
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\App.g.cs
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1_MarkupCompile.cache
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1_MarkupCompile.lref
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\bin\Debug\DoAn1.exe.config
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\bin\Debug\DoAn1.exe
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\bin\Debug\DoAn1.pdb
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\MainWindow.baml
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.g.resources
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.Properties.Resources.resources
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.GenerateResource.cache
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.exe
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\ReplaceArgs.g.cs
+C:\Users\minhduc\source\repos\DoAn1\DoAn1\obj\Debug\ReplaceArgs.baml

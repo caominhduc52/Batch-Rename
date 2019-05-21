@@ -1,0 +1,24 @@
+﻿<Window x:Class="DoAn1.ReplaceArgs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoAn1"
+        mc:Ignorable="d"
+        Title="ReplaceArgs" Height="450" Width="800">
+    <Canvas>
+        <Label Width="800" Height="44" Background="#FF0096FF" Foreground="White"
+               FontFamily="Roboto" Content="Replace Arguments" FontSize="25" HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"/>
+        <Label Width="279" Height="42" Content="Enter String to find" Canvas.Left="269" Canvas.Top="65"
+               Foreground="#FF0196FF" FontFamily="Roboto" FontSize="25" HorizontalContentAlignment="Left"/>
+        <TextBox Name="needleTextBox" Height="41" Width="279" Canvas.Left="269" Canvas.Top="112"/>
+        <Label Width="279" Height="42" Content="Enter String to replace" Canvas.Left="269" Canvas.Top="158"
+               Foreground="#FF0196FF" FontFamily="Roboto" FontSize="25"/>
+        <TextBox Name="hammerTextBox" Height="41" Width="279" Canvas.Left="269" Canvas.Top="205"/>
+        <Button Name="saveButton" Height="41" Width="88" Content="Save" Canvas.Left="340" Canvas.Top="273" Background="#FF0096FF"
+                Foreground="White" Click="SaveButton_Click"/>
+        <Button Name="cancelButton" Height="41" Width="88" Content="Cancel" Canvas.Left="463" Canvas.Top="273" Background="#FF0096FF"
+                Foreground="White" Click="CancelButton_Click"/>
+    </Canvas>
+</Window>
