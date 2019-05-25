@@ -1,0 +1,23 @@
+﻿<Window x:Class="_1753141_1753115_1753133.NewCaseDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1753141_1753115_1753133"
+        mc:Ignorable="d"
+        Title="NewCaseDialog" Height="450" Width="800" Loaded="Window_Loaded">
+    <Canvas>
+        <Label Width="800" Height="35" Background="Moccasin" Content="New Case Selector" FontFamily="Roboto" FontSize="25" HorizontalContentAlignment="Center"/>
+        <Label Content="Choose your new case" Width="162" Height="25" Canvas.Left="69" Canvas.Top="133"/>
+        <ComboBox Name="newcaseCombobox" Width="176" Height="50" Canvas.Left="236" Canvas.Top="133" SelectionChanged="NewcaseCombobox_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding NewCaseName}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Name="selectButton" Height="50" Width="94" RenderTransformOrigin="7.067,4.353" Canvas.Left="447" Canvas.Top="133" Content="Select" Click="SelectButton_Click"/>
+    </Canvas>
+</Window>
