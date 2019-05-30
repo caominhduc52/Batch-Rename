@@ -14,7 +14,6 @@ namespace _1753141_1753115_1753133
         public int Choice { get => _choice; set
             {
                 _choice = value;
-               
             }
         }
 

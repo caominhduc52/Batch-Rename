@@ -42,7 +42,9 @@ namespace _1753141_1753115_1753133
             actions = new List<StringAction>
             {
                 new ReplaceAction(),
-                new NewCase()
+                new NewCase(),
+                new FulNameNormalizeAction(),
+                new MoveAction()
             };
 
             actionCombobox.ItemsSource = actions;

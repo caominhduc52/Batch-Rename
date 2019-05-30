@@ -57,6 +57,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FulNameNormalizeAction.cs" />
+    <Compile Include="FulNameNormalizeArguments.cs" />
+    <Compile Include="MoveAction.cs" />
+    <Compile Include="MoveActionDialog.xaml.cs">
+      <DependentUpon>MoveActionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoveArguments.cs" />
     <Compile Include="NewCase.cs" />
     <Compile Include="NewCaseArguments.cs" />
     <Compile Include="NewCaseDialog.xaml.cs">
@@ -81,6 +88,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MoveActionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="NewCaseDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
