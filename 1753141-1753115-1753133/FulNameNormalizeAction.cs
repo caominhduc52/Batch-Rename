@@ -25,34 +25,25 @@ namespace _1753141_1753115_1753133
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
             string path = Path.GetDirectoryName(origin);
-            string token = origin.Substring(path.Length);
-            string[] tokens = token.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            string filename = Path.GetFileNameWithoutExtension(origin);
+            string extension = Path.GetExtension(origin);
+            string[] tokens = filename.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
 
             if (tokens == null || tokens.Length == 0)
             {
                 return origin;
             }
 
-            string[] pattern = tokens[0].Split(new string[] { " "}, StringSplitOptions.RemoveEmptyEntries);
-
-            for (int i = 0; i < pattern.Length; i++)
+            for (int i = 0; i < tokens.Length; i++)
             {
-                switch(pattern[i].Length)
-                {
-                    case 1:
-                        break;
-                    default:
-                        pattern[i] = Char.ToUpper(pattern[i][0]) + pattern[i].Substring(1).ToLower();
-                        break;
-                }
+                tokens[i] = tokens[i].Substring(0, 1).ToUpper() + tokens[i].Substring(1).ToLower();
             }
-            for (int i = 0; i < pattern.Length; i++)
+            for (int i = 0; i < tokens.Length; i++)
             {
-                sb.Append(pattern[i]);
+                sb = sb.Append(tokens[i]);
                 sb.Append(" ");
             }
-            
-            return String.Concat(path, "\\" + sb.ToString());
+            return String.Concat(path, "\\" + sb.ToString(), extension);
         }
 
         public void ShowEditDialog()
