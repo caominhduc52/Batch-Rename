@@ -51,7 +51,7 @@ Application hỗ trợ các chức năng cơ bản về đổi tên file, folder
 - [x] Muốn đổi tên nhanh chóng một số ảnh trả về và nhét vào CDSL mà không bị trùng, hãy biến tên của mỗi tập tin tải về thành GUID để nó có tên là duy nhất.
 ## Giao diện
 ### Main Windows
-![](https://imgur.com/vBafGn4)
+![](https://imgur.com/vBafGn4.png)
 
 ## Video demo
 URL: [Lập trình Windows. Đồ án Start](https://www.youtube.com/)
