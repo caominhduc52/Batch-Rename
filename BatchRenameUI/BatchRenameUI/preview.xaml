@@ -1,0 +1,56 @@
+﻿<Window x:Class="BatchRenameUI.preview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BatchRenameUI"
+        mc:Ignorable="d"
+        Title="preview" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Content="Preview Dialog" FontFamily="Comic Sans MS" FontSize="15" Grid.Row="0" HorizontalAlignment="Center"/>
+        <TabControl Grid.Row="1">
+            <TabItem Name="PreviewTabItems">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Rename Files"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <DataGrid Name="FilePreviewTab" Background="Transparent" GridLinesVisibility="All">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Filename" Width="150" Binding="{Binding Filename}"/>
+                            <DataGridTextColumn Header="New Filename" Width="150" Binding="{Binding Newfilename}"/>
+                            <DataGridTextColumn Header="Path" Width="150" Binding="{Binding Path}"/>
+                            <DataGridTextColumn Header="Errro" Width="*" Binding="{Binding Erro}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Rename Folders"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <DataGrid Name="FolderPreviewTab" Background="Transparent" GridLinesVisibility="All" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Foldername" Width="150" Binding="{Binding Foldername}"/>
+                            <DataGridTextColumn Header="New Foldername" Width="150" Binding="{Binding Newfolder}"/>
+                            <DataGridTextColumn Header="Folder Path" Width="150" Binding="{Binding Path}"/>
+                            <DataGridTextColumn Header="Errro" Width="*" Binding="{Binding Erro}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

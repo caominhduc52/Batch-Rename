@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRenameUI", "BatchRenameUI\BatchRenameUI.csproj", "{CEA6E1BC-065C-47A5-B557-8C6EE777CDB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEA6E1BC-065C-47A5-B557-8C6EE777CDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA6E1BC-065C-47A5-B557-8C6EE777CDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA6E1BC-065C-47A5-B557-8C6EE777CDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA6E1BC-065C-47A5-B557-8C6EE777CDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DD72F86-B813-4089-8F23-63CC1E2D0F1B}
+	EndGlobalSection
+EndGlobal
