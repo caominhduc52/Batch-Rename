@@ -43,10 +43,18 @@ namespace BatchRenameUI
             }
             for (int i = 0; i < tokens.Length; i++)
             {
-                sb = sb.Append(tokens[i]);
-                sb.Append(" ");
+                if (i != tokens.Length - 1)
+                {
+                    sb = sb.Append(tokens[i]);
+                    sb.Append(" ");
+                }
+                else if (i == tokens.Length - 1)
+                {
+                    sb = sb.Append(tokens[i]);
+                }
             }
-            return String.Concat(path, "\\" + sb.ToString(), extension);
+            return String.Concat(path, sb.ToString(), extension);
+            
         }
 
         public void ShowEditDialog()

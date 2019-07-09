@@ -1,5 +1,3 @@
-New case: New Case with All Upper Case
-Replace action: Replace con cac with cai lon
-Move: Move ISBN to Last
-Full Name Normalize: Normalize The Fullname
-GUID Action: Unique name to save in DB
+Replace action: Replace Cao with Tri
+Replace action: Replace Duc with Tri
+New case: New Case with All Lower Case
