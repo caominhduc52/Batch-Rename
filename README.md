@@ -6,7 +6,7 @@ Batch Rename Application là start project môn Lập trình windows.
 Application hỗ trợ các chức năng cơ bản về đổi tên file, folder.
 ```
 Thành viên trong nhóm:  
-1753114 - Ngô Thanh Trúc  
+1753115 - Ngô Thanh Trúc  
 1753133 - Mai Bảo Trân  
 1753141 - Cao Minh Đức  
 ```
