@@ -11,7 +11,7 @@ Thành viên trong nhóm:
 1753141 - Cao Minh Đức  
 ```
 ## Chức năng
-### 🧮 Chức năng chọn một để tham vào danh sách các tập tin của thư mục được chọn (0.5 điểm)
+### 🧮 Chức năng chọn một để thêm vào danh sách các tập tin của thư mục được chọn (0.5 điểm)
 - [x] Ví dụ chọn thư mục Windows thì sẽ chỉ lấy các tập tin trong thư mục này đưa vào ListView mà thôi
 
 ### 🧮 Chọn một thư mục để thêm vào danh sách các thư mục con của thư mục được chọn. (0.5 điểm)
@@ -59,8 +59,9 @@ Thành viên trong nhóm:
 ![](https://imgur.com/vBafGn4.png)
 
 ## Video demo
-URL: [Lập trình Windows. Đồ án Start](https://www.youtube.com/)
+URL: [Lập trình Windows. Đồ án Start](https://www.youtube.com/watch?v=Y_v3_MMQzVo)
 
 ## Tham khảo & biết ơn
  [Chị Ngân Khánh](https://github.com/ngankhanh98)
+## Project được set thành public sau deadline 11h55 09/07/2019
 
