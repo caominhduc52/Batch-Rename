@@ -4,7 +4,12 @@
 Batch Rename Application là start project môn Lập trình windows.
 
 Application hỗ trợ các chức năng cơ bản về đổi tên file, folder.
-
+```
+Thành viên trong nhóm:  
+1753114 - Ngô Thanh Trúc  
+1753133 - Mai Bảo Trân  
+1753141 - Cao Minh Đức  
+```
 ## Chức năng
 ### 🧮 Chức năng chọn một để tham vào danh sách các tập tin của thư mục được chọn (0.5 điểm)
 - [x] Ví dụ chọn thư mục Windows thì sẽ chỉ lấy các tập tin trong thư mục này đưa vào ListView mà thôi
